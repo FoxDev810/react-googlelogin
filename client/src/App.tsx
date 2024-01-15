@@ -8,6 +8,7 @@ import QueryWrapper from "./core/components/QueryWrapper";
 import SettingsProvider from "./core/contexts/SettingsProvider";
 import SnackbarProvider from "./core/contexts/SnackbarProvider";
 import usePageTracking from "./core/hooks/usePageTracking";
+//add some
 
 if (process.env.NODE_ENV === "production") {
   Sentry.init({
